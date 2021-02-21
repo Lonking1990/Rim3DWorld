@@ -1,24 +1,18 @@
 {
   "name": "angular-electron",
-  "version": "9.0.4",
-  "description": "Angular 11 with Electron (Typescript + SASS + Hot Reload)",
+  "version": "0.0.1",
+  "description": "Rimworld 3D World viewer based three.js, angular and electronon (using https://github.com/maximegris/angular-electron by Maxime GRIS)",
   "homepage": "https://github.com/maximegris/angular-electron",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Lonking1990",
+    "email": "lonking1990@gmail.com"
   },
   "keywords": [
+    "rimworld",
+    "3D",
+    "Threejs",
     "angular",
-    "angular 11",
-    "electron",
-    "nodejs",
-    "typescript",
-    "spectron",
-    "eslint",
-    "sass",
-    "windows",
-    "mac",
-    "linux"
+    "electron"
   ],
   "main": "main.js",
   "private": true,
@@ -40,7 +34,9 @@
     "version": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "lint": "ng lint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "4.6.0"
+  },
   "devDependencies": {
     "@angular-builders/custom-webpack": "11.0.0",
     "@angular-devkit/build-angular": "0.1102.0",

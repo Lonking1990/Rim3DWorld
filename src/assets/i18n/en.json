@@ -2,7 +2,7 @@
   "PAGES": {
       "HOME": {
           "TITLE": "Rim-3d-world",
-          "SUBTITLE": "Rimworld world viewer in 3D",
+          "SUBTITLE": "Rimworld save viewer in 3D",
           "START": "Start"
       },
       "DETAIL": {

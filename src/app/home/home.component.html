@@ -1,8 +1,10 @@
-<div class="container">
-  <h1 class="my-2">
-    {{ 'PAGES.HOME.TITLE' | translate }}
-  </h1>
+<div class="container-fluid">
+  <div class="p-4 overlay text-center user-select-none text-nowrap">
+    <h1 class="my-2">
+      {{ 'PAGES.HOME.TITLE' | translate }}
+    </h1>
 
-  <p>{{ 'PAGES.HOME.SUBTITLE' | translate }}</p>
-  <a class="btn btn-default" routerLink="/config">{{ 'PAGES.HOME.START' | translate }}</a>
+    <p>{{ 'PAGES.HOME.SUBTITLE' | translate }}</p>
+    <span class="btn btn-default my-4" routerLink="/config">{{ 'PAGES.HOME.START' | translate }}</span>
+  </div>
 </div>
