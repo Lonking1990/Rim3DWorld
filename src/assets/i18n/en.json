@@ -1,8 +1,9 @@
 {
   "PAGES": {
       "HOME": {
-          "TITLE": "App works !",
-          "GO_TO_DETAIL": "Go to Detail"
+          "TITLE": "Rim-3d-world",
+          "SUBTITLE": "Rimworld world viewer in 3D",
+          "START": "Start"
       },
       "DETAIL": {
         "TITLE": "Detail page !",
